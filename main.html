@@ -8,6 +8,89 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            border: 1px solid orange;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid orange;
+            padding: 3px 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #888888;
+            color: white;
+        }
+
+        .sub-total-text {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Firm</th>
+                <th>Org</th>
+                <th>Lob</th>
+                <th>Sub Lob</th>
+                <th>Business Plans</th>
+                <th>Business Components</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="11">XYZ</td>
+                <td rowspan="5">CST</td>
+                <td rowspan="3">CT</td>
+                <td>ADS</td>
+                <td>1</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>ADS</td>
+                <td>2</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>ADS</td>
+                <td>3</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td rowspan="2">ADS</td>
+                <td>4</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td class="sub-total-text" colspan="3">Sub Total</td>
+                <td>6</td>
+                <td>15</td>
+            </tr>
+            <!-- Add other rows here with sample data as instructed -->
+        </tbody>
+    </table>
+
+</body>
+
+</html>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
